@@ -1,0 +1,81 @@
+body
+{
+	background-image:url("fondo.jpg");
+background-position:center;
+background-size:cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgb(193, 231, 249);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 700px;
+		height:300px;
+		font-size:50px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#titulo{
+	background-color:turquoise;
+	width:30%;
+}
+#btn{
+background-color: turquoise;
+width: 700px;
+height: 100px;
+font-size: 60px;
+}
+h3{
+	font-size:40px;
+	background-color: gold;
+}
+label{
+	font-size:20px;
+	background-color: cornflowerblue;
+}
+#butn{
+height:50px;
+width:400px;
+font-size:35px;
+background-color: darkmagenta;
+color: rgb(245, 205, 103);
+}
+#player1_name{
+	background-color: lightseagreen;
+	color: rgb(2, 0, 3);
+	font-size:35px;
+}
+#player2_name{
+	background-color: yellow;
+	color: rgb(0, 0, 0);
+	font-size:35px;
+}
+#player1_score,#player2_score{
+	background-color: rgb(106, 158, 255);
+	color: rgb(250, 234, 14);
+	font-size:35px;
+}
